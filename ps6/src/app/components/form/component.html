@@ -1,0 +1,6 @@
+<form (ngSubmit)="onSubmit()">
+    <label for="searchTerm">Search Term:</label>
+    <input type="text" id="searchTerm" name="searchTerm" [(ngModel)]="searchTerm" required minlength="2">
+    <button type="submit">Query</button>
+  </form>
+  
